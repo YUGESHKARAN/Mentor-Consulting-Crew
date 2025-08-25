@@ -1,0 +1,114 @@
+research_consultant:
+  description: >
+    Conduct research on teaching a free and high quality resources to learn the specified topic from scratch to an advanced level based on current trend.
+    The researh should inclued each topics to learn and free courses, books, articles,youtube videos, and any other relevant materials. prepare a structured learning path with estimated time to complete each resource. 
+    <Domain Name>{domain_name}</Product Name>
+    <Topic>{topic}</Topic>
+    <Learning Level>{learning_level}</Learning Level>
+    <Preferred Language>{preferred_language}</Preferred Language>
+    <Estimated Time to Complete>{estimated_time}</Estimated Time to Complete>
+    
+    Current date: {current_date}
+
+  expected_output: >
+    Provide a comprehensive list of free resources to learn the specified topic from scratch to an advanced level.
+    The list should include the following details for each resource:
+    - Resource Type (crash Course, current trend blogs, Article, Video, etc.)
+    - Title
+    - Author/Instructor
+    - URL/Link
+    - Description
+    - Learning Level (Beginner, Intermediate, Advanced)
+    - programming Language
+    - Estimated Time to Complete (if applicable)
+    Store the research consultant report in 'resources/drafts/research_consultant.md'.
+
+path_planner:
+  description: >
+    Develop a detailed learning path that includes structured day to day tasks to master the specified topic from scratch to an advanced level. It should include each topics to learn and free courses, books, articles,youtube videos, and any other relevant materials. 
+    <Topic>{topic}</Topic>
+    <Learning Level>{learning_level}</Learning Level>
+    <Preferred Language>{preferred_language}</Preferred Language>
+    <Estimated Time to Complete>{estimated_time}</Estimated Time to Complete>
+    
+    Current date: {current_date}
+    Refer to the research consultant report for insights and building the strategy.
+
+  expected_output: >
+    Provide a structured learning path with day to day tasks to master the specified topic from scratch to an advanced level.
+    The learning path should include the following details for each task:
+    - Day/Week Number
+    - Topic/Subtopic
+    - Resource Type (crash Course, current trend blogs, Article, Video, etc.)
+    - Title
+    - Author/Instructor
+    - URL/Link
+    - Description
+    - Learning Level (Beginner, Intermediate, Advanced)
+    - programming Language
+    - Estimated Time to Complete (if applicable)
+
+    Store the structured path palnner in 'resources/drafts/path_planner.md'.
+
+content_reviewer:
+  description: >
+    Create a appropriate video link and github repo for each day/ week task in the learning path to master the specified topic from scratch to an advanced level. 
+    <Topic>{topic}</Topic>
+    <Learning Level>{learning_level}</Learning Level>
+    <Preferred Language>{preferred_language}</Preferred Language>
+    <Estimated Time to Complete>{estimated_time}</Estimated Time to Complete>
+
+    Current date: {current_date}
+    Refer to the path planner for insights and building the strategy.
+    
+  expected_output: >
+    Provide a list of video links and github repo for each day/ week task in the learning path to master the specified topic from scratch to an advanced level.
+    The list should include the following details for each task:
+    - Day/Week Number
+    - Topic/Subtopic
+    - Video Link
+    - GitHub Repo Link
+    - Description
+    - Learning Level (Beginner, Intermediate, Advanced)
+    - programming Language
+    - Estimated Time to Complete (if applicable)
+    Store the day/week, topic, video link and github repo link in 'resources/drafts/content_reviewer.md'.
+
+create_content_calendar:
+  description: >
+    Develop a content calendar to schedule and organize the learning journey for mastering the specified topic from scratch to an advanced level. 
+    <Topic>{topic}</Topic>
+    <Learning Level>{learning_level}</Learning Level>
+    <Preferred Language>{preferred_language}</Preferred Language>
+    <Estimated Time to Complete>{estimated_time}</Estimated Time to Complete>
+
+    Current date: {current_date}
+    Refer to the research_consultant, path planner and content reviewer for insights and building the strategy.
+
+  expected_output: >
+    Provide a structured content calendar to schedule and organize the learning journey for mastering the specified topic from scratch to an advanced level.
+    The content calendar should include the following details for each scheduled task:  
+    - Day /week
+    - Topic/Subtopic
+    - Resource Type (crash Course, current trend blogs, Article, Video, etc.)
+    - Title
+    - task to do
+    - task level (Beginner, Intermediate, Advanced)
+    - reference github repo link
+    - reference video link
+    - Estimated Time to Complete (if applicable)
+    Store the content calendar in 'resources/drafts/content_calendar.md'.
+      
+
+  # progress_tracker:
+  # description: >
+  #   Create a progress tracker to monitor the learning journey for mastering the specified topic from scratch to an advanced level. 
+  #   <Topic>{Topic}</Topic>
+  #   <Learning Level>{Learning_level}</Learning Level>
+  #   <Preferred Language>{Preferred_language}</Preferred Language>
+  #   <Estimated Time to Complete>{Estimated_time}</Estimated Time to Complete>
+
+  #   Current date: {current_date}
+  #   Refer to the path planner and content creator for insights and building the strategy.4
+   
+    
