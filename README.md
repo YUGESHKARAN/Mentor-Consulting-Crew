@@ -73,7 +73,7 @@ tasks_scheduler:
 
 ---
  ### Create a `.env` file in the root directory:
- 1. get google api key from [google studio](https://aistudio.google.com/apikey)
+ 1. get google api key from [google ai studio](https://aistudio.google.com/apikey)
  2. Get serp api key from [serper dev](https://serper.dev/)   
    ```
    GOOGLE_API_KEY=<your_gemini_api_key>
