@@ -1,3 +1,5 @@
 .venv
 .vscode
 .env
+db
+crewai-rag-tool.lock

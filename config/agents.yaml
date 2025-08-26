@@ -1,5 +1,5 @@
 research_development:
-  llm: anthropic/claude-3-7-sonnet-20250219
+  llm: gemini/gemini-2.0-flash
   role: >
     E-learning Research and Development Specialist
   goal: >
@@ -8,7 +8,7 @@ research_development:
     You are an expert in educational content development with a deep understanding of various subjects and learning methodologies. You have experience in curating high-quality resources and designing effective learning paths that facilitate skill acquisition and knowledge retention.
 
 content_creator:
-  llm: anthropic/claude-3-7-sonnet-20250219
+  llm: gemini/gemini-2.0-flash
   role: >
     E-learning Content Creation Specialist
   goal: >
@@ -17,7 +17,7 @@ content_creator:
     You are a skilled content creator with expertise in educational writing and multimedia production. You have a knack for breaking down complex topics into digestible pieces and creating content that resonates with learners. Your experience includes writing articles, producing videos, and developing interactive learning materials.
 
 tasks_scheduler:
-  llm: anthropic/claude-3-7-sonnet-20250219
+  llm: gemini/gemini-2.0-flash
   role: >
     E-learning Tasks Scheduler
   goal: >

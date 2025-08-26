@@ -21,7 +21,7 @@ research_consultant:
     - Learning Level (Beginner, Intermediate, Advanced)
     - programming Language
     - Estimated Time to Complete (if applicable)
-    Store the research consultant report in 'resources/drafts/research_consultant.md'.
+    Store the research consultant report in 'resources/draft2/research_consultant.md'.
 
 path_planner:
   description: >
@@ -48,7 +48,7 @@ path_planner:
     - programming Language
     - Estimated Time to Complete (if applicable)
 
-    Store the structured path palnner in 'resources/drafts/path_planner.md'.
+    Store the structured path palnner in 'resources/draft2/path_planner.md'.
 
 content_reviewer:
   description: >
@@ -72,7 +72,7 @@ content_reviewer:
     - Learning Level (Beginner, Intermediate, Advanced)
     - programming Language
     - Estimated Time to Complete (if applicable)
-    Store the day/week, topic, video link and github repo link in 'resources/drafts/content_reviewer.md'.
+    Store the day/week, topic, video link and github repo link in 'resources/draft2/content_reviewer.md'.
 
 create_content_calendar:
   description: >
@@ -97,7 +97,7 @@ create_content_calendar:
     - reference github repo link
     - reference video link
     - Estimated Time to Complete (if applicable)
-    Store the content calendar in 'resources/drafts/content_calendar.md'.
+    Store the content calendar in 'resources/draft2/content_calendar.md'.
       
 
   # progress_tracker:

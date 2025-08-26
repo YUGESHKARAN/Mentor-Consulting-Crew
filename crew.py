@@ -1,17 +1,18 @@
+import os
 from typing import List
 from crewai import Crew, Agent, Process, Task, LLM
 from crewai.project import CrewBase, agent, crew, task
 
-from crewai_tools import SerperDevTool, ScrapeWebsiteTool, DirectoryReadTool, FileReadTool, FileWriterTool
+from crewai_tools import SerperDevTool, ScrapeWebsiteTool, DirectoryReadTool, FileReadTool, FileWriterTool, YoutubeChannelSearchTool
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 
 _ = load_dotenv()  # Load environment variables from .env file
 
-
 llm = LLM(
-   model="anthropic/claude-3-7-sonnet-20250219",
-    temperature=0.7
+model="gemini/gemini-2.0-flash",
+temperature=0.7,
+api_key=os.getenv("Google_API_KEY")
 )
 
 class Content(BaseModel):
@@ -21,8 +22,6 @@ class Content(BaseModel):
     video_url: str = Field(..., description=" The youtube or other source video URL")
     github_url: str = Field(..., description="The GitHub repository URL")
     task_level: str = Field(..., description="The difficulty level of the task")
-    keywords: List[str] = Field(..., description="A list of relevant keywords")
-    tags: List[str] = Field(..., description="A list of relevant tags")
 
 
 @CrewBase
@@ -38,7 +37,7 @@ class TheConsultantCrew():
             tools=[
                 SerperDevTool(),
                 ScrapeWebsiteTool(),
-                DirectoryReadTool('resources/drafts'),
+                DirectoryReadTool('resources/draft2'),
                 FileWriterTool(),
                 FileReadTool()
             ],
@@ -54,9 +53,31 @@ class TheConsultantCrew():
         return Agent(
             config=self.agents_config['content_creator'],
             tools=[
-                SerperDevTool(),
+                # SerperDevTool(),
                 ScrapeWebsiteTool(),
-                DirectoryReadTool('resources/drafts'),
+                # GithubSearchTool(),
+                YoutubeChannelSearchTool(
+                     config=dict(
+                        llm=dict(
+                            provider="google", # or google, openai, anthropic, llama2, ...
+                            config=dict(
+                                model="gemini/gemini-2.0-flash",
+                                # temperature=0.5,
+                                # top_p=1,
+                                # stream=true,
+                            ),
+                        ),
+                        embedder=dict(
+                            provider="google", # or openai, ollama, ...
+                            config=dict(
+                                model="models/embedding-001",
+                                # task_type="retrieval_document",
+                                # title="Embeddings",
+                            ),
+                        ),
+                    )
+                ),
+                DirectoryReadTool('resources/draft2'),
                 FileWriterTool(),
                 FileReadTool()
             ],
@@ -72,9 +93,9 @@ class TheConsultantCrew():
          return Agent(
             config=self.agents_config['tasks_scheduler'],
             tools=[
-                SerperDevTool(),
-                ScrapeWebsiteTool(),
-                DirectoryReadTool('resources/drafts'),
+                # SerperDevTool(),
+                # ScrapeWebsiteTool(),
+                DirectoryReadTool('resources/draft2'),
                 FileWriterTool(),
                 FileReadTool()
             ],
@@ -129,8 +150,8 @@ if __name__ == "__main__":
     from datetime import datetime
 
     inputs = {
-        "domain_name": "Web development",
-        "topic": "MERN Stack",
+        "domain_name": "Data Science",
+        "topic": "Deep Learning",
         "learning_level": "beginner to advanced",
         "preferred_language": "English",
         "estimated_time": "2 months",
