@@ -199,6 +199,7 @@ Feel free to open issues or submit pull requests to make Mentor Consulting Crew 
 
 ## 💡 Inspiration
 
-Mentor Consulting Crew was created to democratize access to structured, high-quality learning roadmaps, combining the power of research, engaging content, and efficient coordination through AI.
+The **Mentor Consulting Crew** project was inspired by the CrewAI tutorial from Codebasics. Special thanks to the Codebasics team for sharing such valuable content.  
+You can find their GitHub repository here: [https://github.com/codebasics/crewai-crash-course.git](https://github.com/codebasics/crewai-crash-course.git)
 
 ---
