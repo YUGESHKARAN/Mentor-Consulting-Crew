@@ -72,6 +72,15 @@ tasks_scheduler:
 5. The final deliverable is a structured, actionable learning path with recommended resources, practice projects, and timelines.
 
 ---
+ ### Create a `.env` file in the root directory:
+ 1. get google api key from (google studio)[https://aistudio.google.com/apikey]
+ 2. Get serp api key from (serper dev)[https://serper.dev/]   
+   ```
+   GOOGLE_API_KEY=<your_gemini_api_key>
+   SERPER_API_KEY=<your_serper_dev_api_key>
+  
+   ```
+
 
 ## 📚 Reference Output: Data Science Learning Path
 
