@@ -10,6 +10,11 @@ Mentor Consulting Crew is an AI-powered project built with [Crew AI](https://git
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-black.svg?style=flat-square)](https://github.com/psf/black)
 ---
 
+## 🎥 Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](mentor_crew_ai.mp4)
+
+
 ## 🚀 Purpose
 
 The primary purpose of Mentor Consulting Crew is to **help learners master a specified course or topic**, delivering:
