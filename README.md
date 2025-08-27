@@ -7,7 +7,7 @@ Mentor Consulting Crew is an AI-powered project built with [Crew AI](https://git
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](./LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/YUGESHKARAN/Mentor-Consulting-Crew?style=flat-square)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/stargazers)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg?style=flat-square)](https://www.python.org/downloads/)
-[![Code Style: Black](https://img.shields.io/badge/code%20style-black-black.svg?style=flat-square)](https://github.com/psf/black)
+
 ---
 
 ## 🎥 Demo Video
