@@ -2,25 +2,13 @@
 # Mentor Consulting Crew 🕸️🤖
 
 Mentor Consulting Crew is an AI-powered project built with [Crew AI](https://github.com/crewAI/crewAI) designed to **build, research, and strategize comprehensive learning paths** for any course, from beginner to advanced level. The crew leverages multiple specialized AI agents to automate and streamline the process of educational planning and content creation, ensuring a high-quality, structured learning experience.
-<!-- GitHub Actions Build Status -->
-[![Build Status](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/actions/workflows/main.yml/badge.svg)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/actions)
-
-<!-- License -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-<!-- GitHub Stars -->
-[![GitHub stars](https://img.shields.io/github/stars/YUGESHKARAN/Mentor-Consulting-Crew.svg?style=social)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/stargazers)
-
-<!-- GitHub Forks -->
+<!-- Badges Section -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](./LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/YUGESHKARAN/Mentor-Consulting-Crew?style=flat-square)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/stargazers)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg?style=flat-square)](https://www.python.org/downloads/)
 [![GitHub forks](https://img.shields.io/github/forks/YUGESHKARAN/Mentor-Consulting-Crew.svg?style=social)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/network)
-
-<!-- GitHub Issues -->
 [![GitHub issues](https://img.shields.io/github/issues/YUGESHKARAN/Mentor-Consulting-Crew.svg)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/issues)
-
-<!-- PRs Welcome -->
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/pulls)
-
-<!-- Contributors -->
 [![Contributors](https://img.shields.io/github/contributors/YUGESHKARAN/Mentor-Consulting-Crew)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/graphs/contributors)
 
 ---
