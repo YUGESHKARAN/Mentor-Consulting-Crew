@@ -12,12 +12,9 @@ Mentor Consulting Crew is an AI-powered project built with [Crew AI](https://git
 [![Contributors](https://img.shields.io/github/contributors/YUGESHKARAN/Mentor-Consulting-Crew)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/graphs/contributors)
 
 ---
-
 ## 🎥 Demo Video
 
 [![Watch the demo](demo/mentor_consulting_crewai.png)](https://drive.google.com/file/d/17D6XhcGkbCjhurU54fDsZ4OWMUD-DcDQ/view?usp=sharing)
-
-
 
 ## 🚀 Purpose
 
