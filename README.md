@@ -12,7 +12,7 @@ Mentor Consulting Crew is an AI-powered project built with [Crew AI](https://git
 
 <p
   align="center">
-  <img src="assets/mentor_consulting_crewai_2.png" width="300" height="300" alt="Cute Llama"> 
+  <img src="assets/mentor_consulting_crewai_2.png" width="100%" height="500" alt="Cute Llama"> 
 </p>
 
 
