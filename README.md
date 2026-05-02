@@ -1,6 +1,6 @@
 ## Mentor Consulting Crew
 
-Mentor Consulting Crew is an AI-powered project built with [Crew AI](https://github.com/crewAI/crewAI) designed to **build, research, and strategize comprehensive learning paths** for any course, from beginner to advanced level. The crew leverages multiple specialized AI agents to automate and streamline the process of educational planning and content creation, ensuring a high-quality, structured learning experience.
+Mentor Consulting Crew is an AI-powered system built with [Crew AI](https://github.com/crewAI/crewAI) designed to **build, research, and strategize comprehensive learning paths** for any course, from beginner to advanced level. The crew leverages multiple specialized AI agents to automate and streamline the process of educational planning and content creation, ensuring a high-quality, structured learning experience.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](./LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/YUGESHKARAN/Mentor-Consulting-Crew?style=flat-square)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/stargazers)
