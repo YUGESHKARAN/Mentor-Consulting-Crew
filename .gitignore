@@ -3,3 +3,4 @@
 .env
 db
 crewai-rag-tool.lock
+__pycache__

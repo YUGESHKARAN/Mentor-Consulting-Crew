@@ -4,24 +4,29 @@ from crewai import Crew, Agent, Process, Task, LLM
 from crewai.project import CrewBase, agent, crew, task
 
 from crewai_tools import SerperDevTool, ScrapeWebsiteTool, DirectoryReadTool, FileReadTool, FileWriterTool, YoutubeChannelSearchTool
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field,ConfigDict
 from dotenv import load_dotenv
 
 _ = load_dotenv()  # Load environment variables from .env file
 
 llm = LLM(
 model="gemini/gemini-2.0-flash",
-temperature=0.7,
+temperature=0.1,
 api_key=os.getenv("Google_API_KEY")
 )
 
+
 class Content(BaseModel):
-    day_or_week_number: int = Field(..., description="The day or week number of the content")
-    task_title: str = Field(..., description="The day wise title of the content")
-    summary: str = Field(..., description="A brief summary of the content")
-    video_url: str = Field(..., description=" The youtube or other source video URL")
-    github_url: str = Field(..., description="The GitHub repository URL")
-    task_level: str = Field(..., description="The difficulty level of the task")
+    model_config = ConfigDict(
+        # Add any configuration you need
+        validate_assignment=True
+    )
+    domain_name: str = Field(..., description="donain name of the course content")
+    topic: str = Field(..., description="specified topic in the domain")
+    learning_level: str = Field(..., description="learning level (beginner, intermediate, advanced)")
+    preferred_language: str = Field(..., description="preferred language for the content (English, Spanish, etc.)")
+    estimated_time: str = Field(..., description="estimated time duration of the course (e.g., 4 weeks, 3 months)")
+    current_date: str = Field(..., description="the current date")
 
 
 @CrewBase
@@ -37,7 +42,7 @@ class TheConsultantCrew():
             tools=[
                 SerperDevTool(),
                 ScrapeWebsiteTool(),
-                DirectoryReadTool('resources/draft2'),
+                DirectoryReadTool('resources/draft3'),
                 FileWriterTool(),
                 FileReadTool()
             ],
@@ -77,7 +82,7 @@ class TheConsultantCrew():
                         ),
                     )
                 ),
-                DirectoryReadTool('resources/draft2'),
+                DirectoryReadTool('resources/draft3'),
                 FileWriterTool(),
                 FileReadTool()
             ],
@@ -95,7 +100,7 @@ class TheConsultantCrew():
             tools=[
                 # SerperDevTool(),
                 # ScrapeWebsiteTool(),
-                DirectoryReadTool('resources/draft2'),
+                DirectoryReadTool('resources/draft3'),
                 FileWriterTool(),
                 FileReadTool()
             ],
@@ -141,7 +146,8 @@ class TheConsultantCrew():
             tasks=self.tasks,
             process=Process.sequential,
             verbose=True,
-            planning=True,
+            planning=False,
+            reasoning=False,
             planning_llm=llm,
             max_rpm=1
         )

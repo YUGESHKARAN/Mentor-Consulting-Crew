@@ -21,7 +21,7 @@ research_consultant:
     - Learning Level (Beginner, Intermediate, Advanced)
     - programming Language
     - Estimated Time to Complete (if applicable)
-    Store the research consultant report in 'resources/draft2/research_consultant.md'.
+    Store the research consultant report in 'resources/draft3/research_consultant.md'.
 
 path_planner:
   description: >
@@ -32,7 +32,7 @@ path_planner:
     <Estimated Time to Complete>{estimated_time}</Estimated Time to Complete>
     
     Current date: {current_date}
-    Refer to the research consultant report for insights and building the strategy.
+    Refer to the research_consultant.md report for insights and building the strategy.
 
   expected_output: >
     Provide a structured learning path with day to day tasks to master the specified topic from scratch to an advanced level.
@@ -48,7 +48,7 @@ path_planner:
     - programming Language
     - Estimated Time to Complete (if applicable)
 
-    Store the structured path palnner in 'resources/draft2/path_planner.md'.
+    Store the structured path palnner in 'resources/draft3/path_planner.md'.
 
 content_reviewer:
   description: >
@@ -59,7 +59,7 @@ content_reviewer:
     <Estimated Time to Complete>{estimated_time}</Estimated Time to Complete>
 
     Current date: {current_date}
-    Refer to the path planner for insights and building the strategy.
+    Refer to the path_planner.md for insights and building the strategy.
     
   expected_output: >
     Provide a list of video links and github repo for each day/ week task in the learning path to master the specified topic from scratch to an advanced level.
@@ -72,7 +72,7 @@ content_reviewer:
     - Learning Level (Beginner, Intermediate, Advanced)
     - programming Language
     - Estimated Time to Complete (if applicable)
-    Store the day/week, topic, video link and github repo link in 'resources/draft2/content_reviewer.md'.
+    Store the day/week, topic, video link and github repo link in 'resources/draft3/content_reviewer.md'.
 
 create_content_calendar:
   description: >
@@ -83,7 +83,7 @@ create_content_calendar:
     <Estimated Time to Complete>{estimated_time}</Estimated Time to Complete>
 
     Current date: {current_date}
-    Refer to the research_consultant, path planner and content reviewer for insights and building the strategy.
+    Refer to the research_consultant.md, path_planner.md and content_reviewer.md for insights and building the strategy.
 
   expected_output: >
     Provide a structured content calendar to schedule and organize the learning journey for mastering the specified topic from scratch to an advanced level.
@@ -97,7 +97,7 @@ create_content_calendar:
     - reference github repo link
     - reference video link
     - Estimated Time to Complete (if applicable)
-    Store the content calendar in 'resources/draft2/content_calendar.md'.
+    Store the content calendar in 'resources/draft3/content_calendar.md'.
       
 
   # progress_tracker:
