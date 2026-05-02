@@ -1,5 +1,4 @@
-
-# Mentor Consulting Crew
+## Mentor Consulting Crew
 
 Mentor Consulting Crew is an AI-powered project built with [Crew AI](https://github.com/crewAI/crewAI) designed to **build, research, and strategize comprehensive learning paths** for any course, from beginner to advanced level. The crew leverages multiple specialized AI agents to automate and streamline the process of educational planning and content creation, ensuring a high-quality, structured learning experience.
 
@@ -11,7 +10,13 @@ Mentor Consulting Crew is an AI-powered project built with [Crew AI](https://git
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/pulls)
 [![Contributors](https://img.shields.io/github/contributors/YUGESHKARAN/Mentor-Consulting-Crew)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/graphs/contributors)
 
-[![Watch the demo](assets/mentor_consulting_crewai_2.png)](https://drive.google.com/file/d/17D6XhcGkbCjhurU54fDsZ4OWMUD-DcDQ/view?usp=sharing)
+<a
+  href="(https://drive.google.com/file/d/17D6XhcGkbCjhurU54fDsZ4OWMUD-DcDQ/view?usp=sharing"
+  align="center">
+  <img src="assets/mentor_consulting_crewai_2.png" width="100%" height="600" alt="Cute Llama"> 
+</a>
+
+
 
 ---
 ## Purpose
@@ -72,7 +77,7 @@ tasks_scheduler:
 
 ---
 
-## How It Works
+## How It Works [watch demo](https://drive.google.com/file/d/17D6XhcGkbCjhurU54fDsZ4OWMUD-DcDQ/view?usp=sharing)
 
 1. **Input a target course or topic** (e.g., "MERN Stack", "Data Science", "Python for Beginners").
 2. The **research_development** agent creates a detailed, step-by-step learning path, curates resources, and identifies educational trends.
