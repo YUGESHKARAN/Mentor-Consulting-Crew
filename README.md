@@ -10,11 +10,10 @@ Mentor Consulting Crew is an AI-powered project built with [Crew AI](https://git
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/pulls)
 [![Contributors](https://img.shields.io/github/contributors/YUGESHKARAN/Mentor-Consulting-Crew)](https://github.com/YUGESHKARAN/Mentor-Consulting-Crew/graphs/contributors)
 
-<a
-  href="(https://drive.google.com/file/d/17D6XhcGkbCjhurU54fDsZ4OWMUD-DcDQ/view?usp=sharing"
+<p
   align="center">
   <img src="assets/mentor_consulting_crewai_2.png" width="300" height="300" alt="Cute Llama"> 
-</a>
+</p>
 
 
 
