@@ -230,7 +230,7 @@ This learning path is designed to take you from a beginner to an advanced Deep L
 
 - Edit `agent.yaml` to specify agent goals, roles, and LLMs.
 
-- Follow the instructions in the [Crew AI documentation](https://github.com/crewAI/crewAI) or your integration script.
+- Follow the instructions in the [Crew AI documentation](https://github.com/crewAI/crewAI) to more details about tools, agents, crew structure and integration.
 
 ---
 
