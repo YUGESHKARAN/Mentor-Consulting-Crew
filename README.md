@@ -203,10 +203,34 @@ This learning path is designed to take you from a beginner to an advanced Deep L
    git clone https://github.com/YUGESHKARAN/Mentor-Consulting-Crew.git
    cd Mentor-Consulting-Crew
    ```
-2. **Configure agents:**  
-   Edit `agent.yaml` to specify agent goals, roles, and LLMs.
-3. **Run the crew:**  
-   Follow the instructions in the [Crew AI documentation](https://github.com/crewAI/crewAI) or your integration script.
+2. Create venv (virtual environment)
+   ```bash
+    uv venv
+    ```
+3. Activate venv
+   Windows
+   
+   ```bash
+     .venv\Scripts\activate
+   ```
+   Mac
+   
+   ```bash
+     source .venv/bin/activate
+   ```
+5. Install dependancies
+   ```bash
+   uv sync
+   ```
+6. Run command
+   ```bash
+   uv run main.py
+   ```
+    
+
+- Edit `agent.yaml` to specify agent goals, roles, and LLMs.
+
+- Follow the instructions in the [Crew AI documentation](https://github.com/crewAI/crewAI) or your integration script.
 
 ---
 
