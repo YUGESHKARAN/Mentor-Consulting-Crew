@@ -10,7 +10,8 @@ from dotenv import load_dotenv
 _ = load_dotenv()  # Load environment variables from .env file
 
 llm = LLM(
-model="gemini/gemini-2.0-flash",
+# model="gemini/gemini-2.5-flash",
+model="gemini/gemini-3.5-flash",
 temperature=0.1,
 api_key=os.getenv("Google_API_KEY")
 )

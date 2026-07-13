@@ -1,5 +1,5 @@
 research_development:
-  llm: gemini/gemini-2.0-flash
+  llm: gemini/gemini-3.5-flash
   role: >
     E-learning Research and Development Specialist
   goal: >
@@ -9,7 +9,7 @@ research_development:
   respect_context_window: true
   
 content_creator:
-  llm: gemini/gemini-2.0-flash
+  llm: gemini/gemini-3.5-flash
   role: >
     E-learning Content Creation Specialist
   goal: >
@@ -19,7 +19,7 @@ content_creator:
   respect_context_window: true
 
 tasks_scheduler:
-  llm: gemini/gemini-2.0-flash
+  llm: gemini/gemini-3.5-flash
   role: >
     E-learning Tasks Scheduler
   goal: >
